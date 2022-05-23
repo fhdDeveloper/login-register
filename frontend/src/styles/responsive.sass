@@ -1,0 +1,35 @@
+@use 'statics' as statics
+
+@media all and (min-width: 992px)
+  .menu-nav
+    flex-direction: column
+    justify-content: start
+    align-items: start
+    height: 100%
+
+  .logo-nav
+    width: 100%
+    background: statics.$grey
+
+  .logo-nav
+    text-align: center
+
+  .ContentCard
+    box-shadow: 0 0 5px 0px #c0c0c029
+    height: calc(100vh - 130px)
+    max-height: calc(100vh - 130px)
+    overflow-y: auto
+
+@media all and (max-width: 991px)
+  .sidebar
+    position: absolute
+    width: 100%
+    top: 75px
+    left: 0
+    height: calc(100vh - 75px)
+    background: #fff
+    text-align: right
+
+  .logo-nav
+    img
+      height: 40px

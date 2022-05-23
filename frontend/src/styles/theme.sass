@@ -1,0 +1,188 @@
+@use 'statics' as statics
+
+@mixin button-style
+  border-radius: 10px
+  padding: 10px 20px
+  font-size: 14px
+  cursor: pointer
+  transition: all 0.3s ease-in-out
+  border: 1px solid transparent
+
+html
+  scrollbar-color: #c7c7c7 #6b6b6b
+  direction: rtl
+
+  ::-webkit-scrollbar
+    width: 8px
+
+  ::-webkit-scrollbar-track-piece
+    background-color: #6b6b6b
+
+  ::-webkit-scrollbar-thumb:vertical
+    height: 30px
+    background-color: #C7C7C7FF
+
+  ::-webkit-scrollbar-track
+    background-color: #6b6b6b
+
+  ::-webkit-scrollbar-thumb
+    height: 30px
+    border-radius: 25px
+    background-color: #C7C7C7FF
+
+
+body
+  font-family: statics.$font-face
+  overflow-x: hidden
+  max-width: 100%
+  :scrollbar-base-color #ff8645
+
+.bg-grey
+  background: statics.$grey
+
+.bg-grey-light
+  background: statics.$light-grey
+
+.radius-10
+  border-radius: 10px
+
+.btn-primary
+  @include button-style
+  background: statics.$red
+  color: #fff
+
+  &:hover , &:focus
+    background: transparent
+    color: statics.$red
+    border-color: statics.$red
+    box-shadow: none
+
+.btn-outline-primary
+  @include button-style
+  background: transparent
+  color: statics.$red
+  border-color: statics.$red
+
+  &:hover , &:focus
+    background: statics.$red
+    color: #fff
+    border-color: statics.$red
+    box-shadow: none
+
+
+.btn-secondary
+  @include button-style
+  background: statics.$yellow
+  color: #686868
+
+  &:hover , &:focus
+    background: transparent
+    color: statics.$dark
+    border-color: statics.$yellow
+    box-shadow: none
+
+.table.table-striped tbody tr:nth-of-type(odd)
+  background-color: statics.$light-grey
+
+.table
+  td, th
+    padding: 10px
+
+  :not(caption) > * > *
+    border-bottom: 0
+
+  .action-btn
+    color: statics.$red
+
+.p_datepicker
+
+  input
+    padding: 0.375rem 0.75rem
+    font-size: 1rem
+    font-weight: 400
+    line-height: 1.5
+    color: #212529
+    background-color: #fff
+    background-clip: padding-box
+    border: 1px solid #ced4da
+    appearance: none
+    border-radius: 0.25rem
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+    text-align: center
+
+.sidebar
+  height: calc(100vh - 90px)
+  overflow: auto
+
+.right-side
+  max-height: 100vh
+  overflow-y: auto
+  position: sticky
+  top: 0
+  left: 0
+
+.nav-link.active
+  > span
+    color: statics.$red
+
+  > svg
+    fill: statics.$red
+
+.dropdown-item.active, .dropdown-item:active
+  background-color: statics.$red
+
+  span
+    color: #fff
+
+  svg
+    fill: #fff
+
+.staticIcon
+  width: 70px
+  height: 70px
+
+.project_card
+  .project_image
+    max-width: 100px
+    max-height: 100px
+    position: absolute
+    left: 20px
+    top: -20px
+    z-index: 1
+
+  .card
+    border-radius: 1rem
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+    overflow: hidden
+
+.avatar_image
+    width: 30px
+    height: 30px
+    border-radius: 50%
+    font-size: 0.7rem
+    text-align: center
+    font-weight: 800
+    display: flex
+    justify-content: center
+    align-items: center
+    background: #E8F0FB
+    color: #073778
+
+.btn-icon
+    padding: 6px
+    border-radius: 5px
+
+.btn-icon-add
+    padding: 6px
+    border-radius: 5px
+    background: #ff626529
+    color: #FF6265
+
+img.project_image.rounded-circle
+    border: 2px solid #FF6265
+    padding: 3px
+
+.picker
+  grid-column: 5/10
+  grid-row: 2/4
+  font-size: 80px

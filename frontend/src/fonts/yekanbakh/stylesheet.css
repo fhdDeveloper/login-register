@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'YekanBakh';
+    src: url('./YekanBakh-Hairline.eot');
+    src: url('./YekanBakh-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('./YekanBakh-Hairline.woff') format('woff'),
+        url('./YekanBakh-Hairline.ttf') format('truetype'),
+        url('./YekanBakh-Hairline.svg#YekanBakh-Hairline') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'YekanBakh';
+    src: url('./YekanBakh-Thin.eot');
+    src: url('./YekanBakh-Thin.eot?#iefix') format('embedded-opentype'),
+        url('./YekanBakh-Thin.woff') format('woff'),
+        url('./YekanBakh-Thin.ttf') format('truetype'),
+        url('./YekanBakh-Thin.svg#YekanBakh-Thin') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'YekanBakh';
+    src: url('./YekanBakh-Light.eot');
+    src: url('./YekanBakh-Light.eot?#iefix') format('embedded-opentype'),
+        url('./YekanBakh-Light.woff') format('woff'),
+        url('./YekanBakh-Light.ttf') format('truetype'),
+        url('./YekanBakh-Light.svg#YekanBakh-Thin') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'YekanBakh';
+    src: url('./YekanBakh-Regular.eot');
+    src: url('./YekanBakh-Regular.eot?#iefix') format('embedded-opentype'),
+        url('./YekanBakh-Regular.woff') format('woff'),
+        url('./YekanBakh-Regular.ttf') format('truetype'),
+        url('./YekanBakh-Regular.svg#YekanBakh-Thin') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'YekanBakh';
+    src: url('./YekanBakh-Medium.eot');
+    src: url('./YekanBakh-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./YekanBakh-Medium.woff') format('woff'),
+        url('./YekanBakh-Medium.ttf') format('truetype'),
+        url('./YekanBakh-Medium.svg#YekanBakh-Thin') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:'YekanBakh';
+    src: url('./YekanBakh-Bold.eot');
+    src: url('./YekanBakh-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./YekanBakh-Bold.woff') format('woff'),
+        url('./YekanBakh-Bold.ttf') format('truetype'),
+        url('./YekanBakh-Bold.svg#YekanBakh-Thin') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:'YekanBakh';
+    src: url('./YekanBakh-Heavy.eot');
+    src: url('./YekanBakh-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('./YekanBakh-Heavy.woff') format('woff'),
+        url('./YekanBakh-Heavy.ttf') format('truetype'),
+        url('./YekanBakh-Heavy.svg#YekanBakh-Thin') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:'YekanBakh';
+    src: url('./YekanBakh-Fat.eot');
+    src: url('./YekanBakh-Fat.eot?#iefix') format('embedded-opentype'),
+        url('./YekanBakh-Fat.woff') format('woff'),
+        url('./YekanBakh-Fat.ttf') format('truetype'),
+        url('./YekanBakh-Fat.svg#YekanBakh-Thin') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+

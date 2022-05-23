@@ -1,0 +1,45 @@
+.bg_primary_color {
+    color: #ff6265;
+}
+
+.login-Page {
+    font-family: 'iranyekan', serif;
+    overflow-x: hidden;
+    max-width: 100%;
+    background: #252531;
+}
+
+.loginForm {
+    background: #fff;
+}
+
+.form-check-input:checked {
+    background-color: #ff6265 !important;
+    border-color: #ff6265 !important;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #767676 !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(163 163 163 / 25%) !important;
+}
+
+.msgError {
+    font-size: 12px;
+    color: #ff6265;
+    margin-top: 0.25rem;
+}
+
+.ShowHide {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-right: 1px solid #c1c1c1;
+}
+
+[name="email"]::placeholder {
+    text-align: right;
+}
